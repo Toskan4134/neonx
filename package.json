@@ -1,0 +1,32 @@
+{
+  "name": "neonx",
+  "version": "1.0.0",
+  "description": "NeonX Discord Bot",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Toskan4134/NeonX-Discord-Bot.git"
+  },
+  "engines": {
+    "node": ">=12.0.0 <17.5.0",
+    "npm": ">=8.0.0"
+  },
+  "keywords": [],
+  "author": "Toskan4134",
+  "license": "MIT",
+  "dependencies": {
+    "@discordjs/builders": "^0.6.0",
+    "canvas": "^2.9.0",
+    "colors": "^1.4.0",
+    "discord-html-transcripts": "^1.1.3",
+    "discord-logs": "^2.0.1",
+    "discord.js": "^13.6.0",
+    "dotenv": "^14.3.2",
+    "express": "^4.17.2",
+    "moment": "^2.29.1",
+    "mongoose": "^6.2.1"
+  }
+}
