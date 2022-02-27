@@ -1,0 +1,60 @@
+{
+    "ownerIDS": ["356817504330448906", "269512051251085313"],
+    "founderID": "901950565733523480",
+    "StaffID": "901950565733523478",
+    "everyoneID": "901950565649641532",
+    "default_cooldown_in_sec": 1,
+    "antiCrash": true,
+    "ping_message": true,
+    "delete_commands": true,
+    "somethingwentwrong_cmd": true,
+    "logs": {
+        "enabled": true,
+        "guildMemberChan": "912805101243105330",
+        "messageChan": "912803869820592198",
+        "guildBanChan": "901950567889395740"
+    },
+    "sugChan": "901950566631108621",
+    "verifyChan": "901950566236823572",
+    "giveawaysChan": "901950566236823581",
+    "tickets": {
+        "categoryID": "902664864764407858",
+        "openID": "901950567037943813",
+        "transcriptsID": "937822603228364850",
+        "encargadoIlegales": "902672524750516244",
+        "encargadoLegales": "902705047014633502",
+        "encargadoCKs": "902672813708685322"
+    },
+    "messages": {
+        "ping_message": "Para ver todos los comandos escribe: `%{prefix}%help`",
+        "cooldown": "❌ Por favor, espera %{timeleft}% segundos más antes de usar el comando` %{commandname}%` de nuevo.",
+        "deactivated": "❌ El comando solicitado está desactivado",
+        "notallowed_to_exec_cmd": {
+            "title": "❌ No tienes permiso para usar este comando",
+            "description": {
+                "memberpermissions": "Permisos necesarios:\n> %{commandmemberpermissions}%",
+                "alloweduserids": "Usuarios permitidos:\n> %{commandalloweduserids}%",
+                "requiredroles": "Roles permitidos:\n> %{commandrequiredroles}%",
+                "default": "Asegurate de que tienes permisos"
+            }
+        },
+        "somethingwentwrong_cmd": {
+            "title": "❌ Algo ha salido mal al usar el comando: `%{commandname}%`",
+            "description": "```%{errormessage}%```"
+        },
+        "unknown_cmd": "❌ Comando desconocido, intenta usar: **`%{prefix}%help`**",
+        "error_occur": "❌ Ha ocurrido un error",
+        "error_occur_desc": "````%{errorstack}%````"
+    },
+    "timeout": {
+        "notallowed_to_exec_cmd": {
+            "memberpermissions": 5000,
+            "alloweduserids": 5000,
+            "requiredroles": 5000
+        },
+        "minargs": 7500,
+        "maxargs": 7500,
+        "minplusargs": 7500,
+        "maxplusargs": 7500
+    }
+}
