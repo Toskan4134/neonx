@@ -1,0 +1,26 @@
+{
+        "prefix": "!!",
+        "loadSlashsGlobal": false,
+        "slashCommandsDirs": [
+                {
+                        "Folder": "Tickets",
+                        "CmdName": "ticket",
+                        "CmdDescription":"Sistema de Tickets de NeonX"
+                },
+                {
+                        "Folder": "Suggest",
+                        "CmdName": "suggest",
+                        "CmdDescription": "Sistema de Sugerencias de NeonX"
+                },
+                {
+                        "Folder": "Warns",
+                        "CmdName": "warn",
+                        "CmdDescription": "Sistema de Advertencias de NeonX"
+                },
+                {
+                        "Folder": "Giveaways",
+                        "CmdName": "giveaway",
+                        "CmdDescription": "Sistema de Advertencias de NeonX"
+                }
+        ]
+}
